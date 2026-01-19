@@ -123,7 +123,7 @@
 &trans  &kp N7  &kp N8  &kp N9  &kp N0                              &trans     &kp HOME  &mkp MB3  &kp END    &kp CARET
 &trans  &kp N4  &kp N5  &kp N6  &kp FSLH  &trans         &trans     &kp PG_UP  &mkp MB1  &kp UP    &mkp MB2   &kp RET
 &trans  &kp N1  &kp N2  &kp N3  &kp DOT   &kp MINUS      &kp CARET  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH
-&trans  &trans  &trans  &trans  &trans    &trans         &trans     &trans                                    &trans
+&trans  &kp N0  &trans  &trans  &trans    &trans         &trans     &trans                                    &trans
             >;
         };
 
