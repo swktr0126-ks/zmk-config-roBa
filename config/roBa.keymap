@@ -100,8 +100,8 @@
 
         SCROLL {
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans                      &trans     &kp HOME  &kp HOME  &kp END    &trans
-&trans   &trans  &trans  &trans  &trans  &trans      &trans  &kp PG_UP  &trans    &kp UP    &trans     &kp RET
+&kp ESC  &trans  &trans  &trans  &trans                      &trans     &kp HOME  &mkp MB3  &kp END    &kp PRINTSCREEN
+&trans   &trans  &trans  &trans  &trans  &trans      &trans  &kp PG_UP  &mkp MB1  &kp UP    &mkp MB2   &kp RET
 &trans   &trans  &trans  &trans  &trans  &trans      &trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp UP
 &trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
