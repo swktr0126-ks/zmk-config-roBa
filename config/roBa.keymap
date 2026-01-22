@@ -49,9 +49,15 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_tap>, <&kp S &kp W &kp K>;
-
+            bindings = <&to 0>;
             label = "TO_LAYER_0";
+        };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
         };
     };
 
