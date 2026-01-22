@@ -107,12 +107,12 @@
             >;
         };
 
-        ARROW {
+        KIGOU {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp LS(EXCL)  &kp LS(DQT)   &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                      &kp LS(AMPS)   &kp LS(SQT)    &kp LS(LPAR)  &kp LS(RPAR)   &kp AT
+&kp LS(AMPS)  &kp LS(SQT)   &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(LT)     &trans      &trans  &kp LS(PLUS)   &kp LS(STAR)   &kp SEMI      &kp COLON      &kp RET
+&kp LS(LBRC)  &kp LS(RBRC)  &kp LBKT       &kp RBKT      &kp LS(GT)     &trans      &trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp BSLH      &kp LS(QMARK)  &kp FSLH
+&trans        &trans        &trans         &trans        &trans         &trans      &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
